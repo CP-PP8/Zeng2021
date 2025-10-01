@@ -1,6 +1,6 @@
 ---
-title: "Replication of Study X by Sample & Sample (20xx, Psychological Science)"
-author: "Replication Author[s] (contact information)"
+title: "Replication of Study "Tracking the relation between gist and item memory over the course of long-term memory consolidation" by Tima Zeng et al. (2021, eLife)"
+author: "Chattarin Poungtubtim (cpoungtubtim@ucsd.edu)"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 format:
   html:
@@ -12,7 +12,17 @@ format:
 
 ## Introduction
 
-[No abstract is needed.]  Each replication project will have a straightforward, no frills report of the study and results.  These reports will be publicly available as supplementary material for the aggregate report(s) of the project as a whole.  Also, to maximize project integrity, the intro and methods will be written and critiqued in advance of data collection.  Introductions can be just 1-2 paragraphs clarifying the main idea of the original study, the target finding for replication, and any other essential information. You will likely contact the authors of the original study, so this should be professional and forward facing. It will NOT have a literature review -- that is in the original publication. You can write both the introduction and the methods in past tense.  
+The reason I chose this paper to replicate is that I want to investiage the connection between the rate of representational drift in hippocampus and  the transition from detailed episodic memory to more abstract gist-like memory. In this paper, they studied how the spatial memory of locations became more attracted to the gist or an average of all location over time. Here I would to use this as an behavioral experiment and combine it with neuroimaging technique such as fMRI to track how neural representation of spatial memories correlate with gist-like transformation of the memory.
+
+The stimuli used in this study will be black dot presented on the screen. Each dot is corresponded to a name of different places such as hospital, school. The dot will be presented sequentially and location of each of them will be different on the screen. So participants need to remember the match between the dot location and the place it represents e.g. A hospital is a dot located on the upper right. The training phase will let participants to learn an association between the location and name of the place. Then they will have to go over multiple testing phases : at 1 day, 1 week and 1 month after the training phase. For each test trials, participants will be showned a dot of on screen and the name of a place. Then they will need to answer the location and the name are correctly matched. On some trials, they will be asked to report an average location of all dots they learned during the training phase. 
+
+The challenge here is probably how to randomize the location of all dots in the sense that there will be a cluster of dots located closer together. In doing so, the gist of all location would be stronger and we could see the attraction toward the gist.
+
+Link to the paper : 
+Link to the repository : 
+
+
+
 
 
 ## Methods
