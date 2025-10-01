@@ -18,8 +18,8 @@ The stimuli used in this study will be black dot presented on the screen. Each d
 
 The challenge here is probably how to randomize the location of all dots in the sense that there will be a cluster of dots located closer together. In doing so, the gist of all location would be stronger and we could see the attraction toward the gist.
 
-Link to the paper : 
-Link to the repository : 
+Link to the paper : https://github.com/CP-PP8/Zeng2021/blob/main/original_paper/elife-65588-v3.pdf
+Link to the repository : https://github.com/CP-PP8/Zeng2021/tree/main
 
 
 
