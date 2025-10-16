@@ -14,9 +14,9 @@ format:
 
 The reason I chose this paper to replicate is that I want to investiage the connection between the rate of representational drift in hippocampus and  the transition from detailed episodic memory to more abstract gist-like memory. In this paper, they studied how the spatial memory of locations became more attracted to the gist or an average of all location over time. Here I would to use this as an behavioral experiment and combine it with neuroimaging technique such as fMRI to track how neural representation of spatial memories correlate with gist-like transformation of the memory.
 
-The stimuli used in this study will be black dot presented on the screen. Each dot is corresponded to a name of different places such as hospital, school. The dot will be presented sequentially and location of each of them will be different on the screen. So participants need to remember the match between the dot location and the place it represents e.g. A hospital is a dot located on the upper right. The training phase will let participants to learn an association between the location and name of the place. Then they will have to go over multiple testing phases : at 1 day, 1 week and 1 month after the training phase. For each test trials, participants will be showned a dot of on screen and the name of a place. Then they will need to answer the location and the name are correctly matched. On some trials, they will be asked to report an average location of all dots they learned during the training phase. 
+The stimuli used in this study will be black dot presented on the screen. Each dot is corresponded to a name of different places such as hospital, school. The dot will be presented sequentially and location of each of them will be different on the screen. So participants need to remember the match between the dot location and the place it represents e.g. A hospital is a dot located on the upper right. The training phase will let participants to learn an association between the location and name of the place. Then they will have to go over multiple testing phases : at 1 day, 1 week and 1 month after the training phase. For each test trials, participants will be showned a dot of on screen and the name of a place. Then they will need to answer the location and the name are correctly matched. On some trials, they will be asked to report an average location of all dots they learned during the training phase. Here, I plan to replicate experiment 1 in this study
 
-The challenge here is probably how to randomize the location of all dots in the sense that there will be a cluster of dots located closer together. In doing so, the gist of all location would be stronger and we could see the attraction toward the gist.
+The experiment will be built using jsPsych. Data will be collected through SONA system and participants need to perform a task on-site. There will be 4 sessions in total: learning task, memory task 1 day, 1 week and 1 month after learning. If the data collection could not be done in time, I might decide to collect data for memory task right after partcipants learned the location-place mapping. Then I will collect more data for memory tasks 3 days and 7 days after learning. I plan to recruit 60 participants for the initial learning session just in case participants drop out half way through the experiment. My plan for analysis to exclude any participants who do not show up at the memory task session 1 week after the learning.
 
 Link to the paper : https://github.com/CP-PP8/Zeng2021/blob/main/original_paper/elife-65588-v3.pdf
 Link to the repository : https://github.com/CP-PP8/Zeng2021/tree/main
@@ -27,13 +27,17 @@ Link to the repository : https://github.com/CP-PP8/Zeng2021/tree/main
 
 ## Methods
 
+
 ### Power Analysis
 
 Original effect size, power analysis for samples to achieve 80%, 90%, 95% power to detect that effect size.  Considerations of feasibility for selecting planned sample size.
 
 ### Planned Sample
 
-Planned sample size and/or termination rule, sampling frame, known demographics if any, preselection rules if any.
+60 subjects from UCSD psychology undergraduate students
+tentative exclusion criteria
+=> bad performance (high error, slow RT)
+=> drop out of any session from 1 day - 1 week after the learning task
 
 ### Materials
 
