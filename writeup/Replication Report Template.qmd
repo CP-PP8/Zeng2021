@@ -39,11 +39,12 @@ Exclusion criteria
 => bads performance compared to guessing : if any participants have guessed (having more than 267 pixels error in invidual memory condition and more than 270 pixels in gist memory condition) in at least 50% of trials of indvidual memory gist memory trial in either session
 => drop out of second session
 
-### Materials (I just sent an email to corresponding author for more details on how to code an experiment. I will put in more details when I get more information !)
+### Materials 
+The experiment will be built as exactly as described in Zeng et al. using JSPsych 
 
-The experiment will be coded on JSPsych. During training phase 1, a dot with a size of .... pixels will be presented along the text displaying the landmark corresponding to the dot. For phase 2, the landmark text will be displared on the screen and participants need to click on the location that they think represent the dot. Nexy, the feedback will be shown and participants learned the correct location of a landamark. For training phase 3, the trial proceeds in the similar manner to phase 2 but there is no feedback. The testing session is also proceed in the same pattern as training phase 3 but there will be an additional trial asking for participants to respond for aan average location of all landmarks in the set they've just learned. The location of dots will be the same across participants. Only mapping between dot location and landmark name would change across participants, The behavioral response will be collected by recording the position (x,y) that participants click on the screen during each trials. Reaction time is also collected for possible additional analysis
 
-### Procedure	
+### Procedure (I just sent an email to corresponding author for more details on how to code an experiment. I will put in more details when I get more information !)
+Experiment :  During training phase 1, a dot with a size of .... pixels will be presented along the text displaying the landmark corresponding to the dot. For phase 2, the landmark text will be displared on the screen and participants need to click on the location that they think represent the dot. Nexy, the feedback will be shown and participants learned the correct location of a landamark. For training phase 3, the trial proceeds in the similar manner to phase 2 but there is no feedback. The testing session is also proceed in the same pattern as training phase 3 but there will be an additional trial asking for participants to respond for aan average location of all landmarks in the set they've just learned. The location of dots will be the same across participants. Only mapping between dot location and landmark name would change across participants, The behavioral response will be collected by recording the position (x,y) that participants click on the screen during each trials. Reaction time is also collected for possible additional analysis
 
 Participants will be recruited online via SONA system. In session 1, they will have to finish 3 training phases and unrelated arithmetric task in order to start the testing phase. After they finish the 1st session, they would be asked to return for 2nd session at varied intervals. Here, they will receive a credit when they are done with 2 sessions. 
 
@@ -55,7 +56,7 @@ Error measurement
 => gist memory : there are 2 ways of estimating gist memory error. First, we would calculate the euclidean distance between reported gist and the true gist location. The second method is to caluclate reported gist by averaging over all participant's response on individual memroy to get estimated gist. The we could calculate distance between two fo them just like the first method.
 
 Bias measurement
-The bias would be defined as the difference between the Euclidean distance from true item location to true gist location and the Euclidean distance from reported item location to true gist location divided by Participants could choose to quit the experiment after Session 1 and receive 10 dollars for their time. If the bias is more than 0, it means that there is an attractive bias toward the gist location
+The bias would be defined as the difference between the Euclidean distance from true item location to true gist location and the Euclidean distance from reported item location to true gist location divided by the Euclidean distance from true item location to true gist location. If the bias is more than 0, it means that there is an attractive bias toward the gist location
 
 Bias simulation
 
@@ -68,9 +69,15 @@ To compare whether observed bias is different from simulated item-only bias over
 Lastly, we will use the same statistical tests (2 x 3 ANOVA and two-tailed pair t-tests to determine whether observe bias become more similar simulated gist-based bias overtime. 
 
 
+### Reliability and validity
+
+The method to measure an error is calculating euclidean distance on x and y-axis. It has been used widely in spatial memory research and has a validity. However, the reliability in this study might be lower than other research as they only measure memory for each location once. So it is more likely to have a noisy estimation of memory from single measurement. 
+
+Normally, the measurement of memory bias can be vary. Some studies use a proportion of response that is biased toward other items. Other studies might flip the sign of error based on the direction of bias and calculate circular mean of error distribution and see whether a mean is significantly different from 0. In this study, they calculate bias  by using the difference between the Euclidean distance from true item location to true gist location and the Euclidean distance from reported item location to true gist location divided by the Euclidean distance from true item location to true gist location. It is more similar to the first method but here they also scale bias so it should be affected less by any outliers. The only concern here is that the reliability might be low as previously mentioned. Another concern is that there is no baseline to compare bias. Therefore, they use simulated bias in order to compare whether the bias become closer to gist overtime.
+
 ### Differences from Original Study
 
-Explicitly describe known differences in sample, setting, procedure, and analysis plan from original study.  The goal, of course, is to minimize those differences, but differences will inevitably occur.  Also, note whether such differences are anticipated to make a difference based on claims in the original article or subsequent published research on the conditions for obtaining the effect.
+Explicitly describe known differences in sample, setting, procedure, and analysis plan from original study.  The goal, of course, is to minimize those differences, but differences will inevitably occur.  Also, note whether such differences are anticipated to make a difference based on claims in the original article or subsequent published research on the conditions for obtaining the effect. 
 
 ### Methods Addendum (Post Data Collection)
 
